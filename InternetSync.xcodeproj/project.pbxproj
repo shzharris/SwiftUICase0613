@@ -16,6 +16,26 @@
 			path = InternetSync;
 			sourceTree = "<group>";
 		};
+		6FB46D732DFAB213000130BE /* Model */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6FB46D762DFB19AE000130BE /* View */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FB46D7E2DFBA499000130BE /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6FB46D882DFBAB73000130BE /* Extension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,10 @@
 		6FB46D5A2DFAA1C3000130BE = {
 			isa = PBXGroup;
 			children = (
+				6FB46D882DFBAB73000130BE /* Extension */,
+				6FB46D7E2DFBA499000130BE /* ViewModel */,
+				6FB46D762DFB19AE000130BE /* View */,
+				6FB46D732DFAB213000130BE /* Model */,
 				6FB46D652DFAA1C3000130BE /* InternetSync */,
 				6FB46D642DFAA1C3000130BE /* Products */,
 			);
@@ -62,6 +86,10 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6FB46D652DFAA1C3000130BE /* InternetSync */,
+				6FB46D732DFAB213000130BE /* Model */,
+				6FB46D762DFB19AE000130BE /* View */,
+				6FB46D7E2DFBA499000130BE /* ViewModel */,
+				6FB46D882DFBAB73000130BE /* Extension */,
 			);
 			name = InternetSync;
 			packageProductDependencies = (
@@ -261,6 +289,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +318,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
